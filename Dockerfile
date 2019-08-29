@@ -4,4 +4,4 @@ RUN apk add g++ python make npm
 
 RUN npm i spdlog
 
-CMD node -p 'require("spdlog")'
+CMD /bin/sh -c "node -p 'require(\"spdlog\")'"
