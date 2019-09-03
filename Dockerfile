@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:edge
 
 RUN apk add g++ python make npm
 
